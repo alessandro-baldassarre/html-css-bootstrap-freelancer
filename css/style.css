@@ -5,10 +5,30 @@
     background-color: #2d3f50;
 }
 
-.my-bg-green
+.my-bg-green {
+    background-color: #1abc9c;
+}
+
+.box{
+    height: 250px;
+    border: 1px solid red;
+}
 
 /* TAG SELECTORS */
 
 header {
     height: 80px;
+}
+
+/* JUMBOTRON */
+
+section.jumbotron {
+    height: 600px;
+    text-align: center;
+}
+
+/* PORTFOLIO */
+
+section.portfolio{
+    text-align: center;
 }
