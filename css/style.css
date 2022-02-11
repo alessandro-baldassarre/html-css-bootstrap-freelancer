@@ -2,6 +2,10 @@
 /* COMMON CLASSES */
 
 .my-bg-blue {
+    background-color: #3b546c;
+}
+
+.my-bg-dark-blue {
     background-color: #2d3f50;
 }
 
@@ -12,6 +16,7 @@
 .box{
     height: 250px;
     border: 1px solid red;
+    margin-bottom: 30px;
 }
 
 /* TAG SELECTORS */
@@ -23,7 +28,7 @@ header {
 /* JUMBOTRON */
 
 section.jumbotron {
-    height: 600px;
+    height: 300px;
     text-align: center;
 }
 
@@ -31,4 +36,27 @@ section.jumbotron {
 
 section.portfolio{
     text-align: center;
+}
+
+/* ABOUT */
+
+section.about{
+    text-align: center;
+    height: 350px;
+}
+
+/* CONTACT */
+
+section.contact h2{
+    text-align: center;
+}
+
+/* FOOTER */
+
+div.footer-top{
+    height: 160px;
+}
+
+div.footer-bottom{
+    height: 80px;
 }
