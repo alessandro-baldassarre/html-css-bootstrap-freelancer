@@ -21,33 +21,30 @@
 
 /* TAG SELECTORS */
 
-header {
-    height: 80px;
-}
 
 /* JUMBOTRON */
 
-section.jumbotron {
+section#jumbotron {
     height: 300px;
     text-align: center;
 }
 
 /* PORTFOLIO */
 
-section.portfolio{
+section#portfolio{
     text-align: center;
 }
 
 /* ABOUT */
 
-section.about{
+section#about{
     text-align: center;
     height: 350px;
 }
 
 /* CONTACT */
 
-section.contact h2{
+section#contact h2{
     text-align: center;
 }
 
