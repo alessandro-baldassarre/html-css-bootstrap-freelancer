@@ -13,6 +13,17 @@
     background-color: #1abc9c;
 }
 
+.my-graphic-divider{
+    width: 240px;
+}
+
+.my-bar-divider{
+    width: 42%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
 .box{
     height: 250px;
     border: 1px solid red;
@@ -24,9 +35,20 @@
 
 /* JUMBOTRON */
 
-section#jumbotron {
-    height: 300px;
-    text-align: center;
+section#jumbotron img{
+    width: 230px;
+    
+}
+
+section#jumbotron .my-list-nav{
+    list-style-type: none;
+}
+
+li.dash-list-type:before{ 
+    content:"- ";
+}
+li.dash-list-type:after{ 
+    content:" -";
 }
 
 /* PORTFOLIO */
