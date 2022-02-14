@@ -14,7 +14,7 @@
 }
 
 .my-graphic-divider{
-    width: 200px;
+    width: 150px;
 }
 
 .my-bar-divider{
@@ -49,10 +49,6 @@ li.dash-list-type:after{
 /* ABOUT */
 
 /* CONTACT */
-
-section#contact h2{
-    text-align: center;
-}
 
 /* FOOTER */
 
