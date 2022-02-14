@@ -14,20 +14,13 @@
 }
 
 .my-graphic-divider{
-    width: 240px;
+    width: 200px;
 }
 
 .my-bar-divider{
     width: 42%;
-    height: 5px;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.box{
-    height: 250px;
-    border: 1px solid red;
-    margin-bottom: 30px;
+    height: 2px;
+    border-radius: 2px;
 }
 
 /* TAG SELECTORS */
@@ -37,7 +30,6 @@
 
 section#jumbotron img{
     width: 230px;
-    
 }
 
 section#jumbotron .my-list-nav{
@@ -53,9 +45,6 @@ li.dash-list-type:after{
 
 /* PORTFOLIO */
 
-section#portfolio{
-    text-align: center;
-}
 
 /* ABOUT */
 
